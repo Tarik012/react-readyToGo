@@ -11,6 +11,7 @@ button {
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
+  background-color: rgb(167, 186, 167);
 }
 
 .header-container {
@@ -36,7 +37,6 @@ button {
   align-items: center;
   justify-content: center;
   gap: 100px;
-  border: 1px solid blue;
 }
 
 .div-button {
@@ -60,6 +60,13 @@ button {
   font-size: 18px;
   line-height: 50px;
   text-align: center;
+}
+
+.btn-reset {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: blue;
 }
 
 .message {
