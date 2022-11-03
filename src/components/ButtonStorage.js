@@ -12,10 +12,16 @@ const ButtonStorage = ({ switchButton, setSwitch }) => {
   };
   return (
     <div className="button-storage">
-      <button className={!switchButton ? "on" : "off"} onClick={handleClickOn}>
+      <button
+        className={switchButton === false ? "on" : "off"}
+        onClick={handleClickOn}
+      >
         ON
       </button>
-      <button className={switchButton ? "on" : "off"} onClick={handleClickOff}>
+      <button
+        className={switchButton === false ? "off" : "on"}
+        onClick={handleClickOff}
+      >
         OFF
       </button>
     </div>
